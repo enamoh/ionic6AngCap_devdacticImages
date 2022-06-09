@@ -1,5 +1,7 @@
 {
   "name": "devdacticImages",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
