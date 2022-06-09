@@ -165,7 +165,7 @@ export class HomePage implements OnInit {
     await loading.present();
 
     // Use your own API!
-    const url = 'http://localhost:8080/devdacticImages/upload.php';
+    const url = 'http://172.20.5.26:8080/devdacticImages/upload.php';
 
     this.http.post(url, formData)
       .pipe(
